@@ -1,0 +1,21 @@
+{
+  "name": "node-cli-app",
+  "version": "1.0.0",
+  "description": "CLI app to take user's name as input and show Hello message",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "yargs": "^17.7.1"
+  }
+}
