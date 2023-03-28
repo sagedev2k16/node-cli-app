@@ -1,5 +1,3 @@
-console.log("Hello");
-
 import chalk from "chalk";
 import boxen from "boxen";
 import yargs from 'yargs';
