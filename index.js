@@ -16,8 +16,8 @@ const boxenOptions = {
     padding: 1, // Create 1 unit of space inside the box 
     margin: 1, // Create 1 unit of space outside the box
     borderStyle: "round", // Use round border style
-    borderColor: "green", // Use green border color
-    backgroundColor: "#555555" // Use gray as box background color
+    borderColor: "red", // Use green border color
+    backgroundColor: "#fe3a12" // Use gray as box background color
 };
 
 const msgBox = boxen(greeting, boxenOptions); // Create the message box with greeting message
