@@ -1,10 +1,11 @@
-import chalk from "chalk";
-import boxen from "boxen";
-import yargs from 'yargs';
+import chalk from "chalk"; // To create styling for CLI messages
+import boxen from "boxen"; // To create boxes around CLI messages
+import yargs from 'yargs'; // To get user input in CLI using arguments
 
 const options = yargs(process.argv.slice(2)) // slice(2) skips the first two arguments in the command
     .usage("Usage: -n <name>")
     .option("n", { alias: "name", describe: "Your name", type: "string", demandOption: true })
+    .option("a", { alias: "age", describe: "Your age", type: "number", demandOption: false })
     .argv; // This will provide the value in options.n
 
 const greeting = chalk
